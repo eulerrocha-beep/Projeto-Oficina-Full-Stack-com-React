@@ -1,0 +1,209 @@
+header {
+
+  width: 100%;
+
+  height: 90px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 0 40px;
+
+  background: rgba(8, 15, 30, 0.85);
+
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 100;
+}
+
+.dashboard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+
+
+.dashboard-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cadastro,
+.logout,
+.ordens {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para a área de cards */
+
+.nav-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.cards {
+  background: white;
+  width: 300px;
+
+  padding: 20px;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon-area {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 50%;
+
+  background: #dbeafe;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-area h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.info-area p {
+  margin: 5px 0 0 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #111;
+}
+
+.dashboard-grafico {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.clientes-recentes {
+  width: 50%;
+
+  background: white;
+
+  padding: 20px;
+
+  margin: 20px;
+
+  border-radius: 16px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cliente-item {
+  padding: 10px;
+}
+
+.cliente-item p {
+  font-weight: 100;
+}
+
+
+
+.grafico-container {
+
+  display: flex;
+  flex-direction: row;
+
+  width: 50%;
+
+  background: white;
+
+  margin: 20px;
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ordens-aberto {
+  background: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+  width: 97%;
+
+  margin: 29px;
+
+}
+
+.ordens-aberto .name {
+  display: grid;
+  padding: 1.5rem;
+
+  grid-template-columns:
+    80px 1fr 1fr 150px;
+  align-items: center;
+
+}
+
+.ordens-status {
+  background: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+  width: 97%;
+
+  margin: 29px;
+
+}
+
+.ordens-status .ordens-item {
+  display: grid;
+  padding: 1.5rem;
+
+  grid-template-columns:
+    80px 1fr 1fr 150px;
+  align-items: center;
+
+  font-size: 1rem;
+}

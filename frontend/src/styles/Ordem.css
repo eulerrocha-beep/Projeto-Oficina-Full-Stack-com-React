@@ -1,0 +1,262 @@
+.dashboard-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.voltar {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ordem-form-container {
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    background: #111827;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+    color: white;
+}
+
+.ordem-form-container h1 {
+
+    margin-bottom: 25px;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    color: #fff;
+}
+
+.ordem-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+.ordem-form input,
+.ordem-form select,
+.ordem-form textarea {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: 1px solid #374151;
+
+    border-radius: 12px;
+
+    background: #1f2937;
+
+    color: white;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.ordem-form input:focus,
+.ordem-form select:focus,
+.ordem-form textarea:focus {
+
+    border-color: #2563eb;
+
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+}
+
+.ordem-form textarea {
+
+    min-height: 120px;
+
+    resize: vertical;
+}
+
+.ordem-form button {
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.ordem-form button:hover {
+
+    background: #1d4ed8;
+
+    transform: translateY(-2px);
+}
+
+.ordens-lista {
+
+    margin-top: 40px;
+
+    display: grid;
+
+    padding: 10px;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 20px;
+}
+
+.ordem-card {
+
+    background: #1f2937;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    border: 1px solid #374151;
+
+    transition: 0.3s;
+}
+
+.ordem-card:hover {
+
+    transform: translateY(-5px);
+
+    border-color: #2563eb;
+}
+
+.ordem-card h3 {
+
+    margin-bottom: 15px;
+
+    color: #fff;
+
+    font-size: 22px;
+}
+
+.ordem-card p {
+
+    margin: 8px 0;
+
+    color: #d1d5db;
+}
+
+.status {
+
+    display: inline-block;
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-top: 10px;
+}
+
+.status.aberta {
+
+    background: #f59e0b;
+
+    color: #111827;
+}
+
+.status.andamento {
+
+    background: #2563eb;
+
+    color: white;
+}
+
+.status.finalizada {
+
+    background: #10b981;
+
+    color: white;
+}
+
+.btn-delete {
+
+    margin-top: 15px;
+
+    width: 100%;
+
+    background: #dc2626;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn-delete:hover {
+    background: #b91c1c;
+}
+
+.acoes {
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.start {
+    background-color: green;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.stop {
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.start:hover,
+.stop:hover {
+    transform: scale(1.05);
+}
